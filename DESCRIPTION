@@ -1,0 +1,10 @@
+Package: waapihktheme
+Type: Package
+Title: ggplot theme for Waapihk Research
+Version: 0.1.0
+Author: Michael Pereira <monkeycycle@gmail.com>
+Maintainer: Michael Pereira <monkeycycle@gmail.com>
+Description: Basic minimal theme and brand palettes for ggplot graphics.  
+License: Free of any warranty
+Encoding: UTF-8
+LazyData: true
