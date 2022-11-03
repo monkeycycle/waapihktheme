@@ -4,7 +4,17 @@ Title: ggplot theme for Waapihk Research
 Version: 0.1.0
 Author: Michael Pereira <monkeycycle@gmail.com>
 Maintainer: Michael Pereira <monkeycycle@gmail.com>
-Description: Basic minimal theme and brand palettes for ggplot graphics.  
-License: Free of any warranty
+Description: Basic minimal ggplot theme and brand palettes for Waapihk Research.  
+License: License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    grDevices,
+    ggplot2,
+    ggrepel,
+    Cairo,
+    gridExtra,
+    dplyr,
+    magrittr
