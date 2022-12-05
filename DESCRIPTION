@@ -11,16 +11,22 @@ LazyData: true
 Depends:
     R (>= 3.5.0)
 Imports:
+    dplyr,
+    data.table
+    tidyr, 
     grDevices,
     ggplot2,
     ggrepel,
     Cairo,
     grid,
     gridExtra,
-    dplyr,
     magrittr
     png,
     ggpubr,
-    dplyr,
-    data.table
-    
+    gapminder,
+    ggalt,
+    forcats, 
+    R.utils, 
+    png, 
+    grid, 
+    scales
