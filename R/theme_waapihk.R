@@ -6,9 +6,9 @@ waapihk_colors <- c(
   `ice`      = '#e2eeef',
   `compost`  = '#7a7c78',
 
-  `grey_1`   = 'a4b4bc',
-  `grey_2`   = '849ca4',
-  `grey_3`   = '7c9097'
+  `grey_1`   = '#a4b4bc',
+  `grey_2`   = '#849ca4',
+  `grey_3`   = '#7c9097'
 
 
 )
