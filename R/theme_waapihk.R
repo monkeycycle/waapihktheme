@@ -28,17 +28,16 @@ create_footer <- function (source_name, logo_image_path="") {
 
 }
 
-#' Arrange alignment and save BBC ggplot chart
+#' Arrange alignment and save ggplot chart
 #'
-#' Running this function will save your plot with the correct guidelines for publication for a BBC News graphic.
-#' It will left align your title, subtitle and source, add the BBC blocks at the bottom right and save it to your specified location.
+#' Running this function will save your plot with the correct guidelines for publication.
+#' It will left align your title, subtitle and source, and save it to your specified location.
 #' @param plot_name The variable name of the plot you have created that you want to format and save
 #' @param source_name The text you want to come after the text 'Source:' in the bottom left hand side of your side
 #' @param save_filepath Exact filepath that you want the plot to be saved to
 #' @param width_pixels Width in pixels that you want to save your chart to - defaults to 640
 #' @param height_pixels Height in pixels that you want to save your chart to - defaults to 450
 #' @param logo_image_path File path for the logo image you want to use in the right hand side of your chart,
-#'  which needs to be a PNG file - defaults to BBC blocks image that sits within the data folder of your package
 #' @return (Invisibly) an updated ggplot object.
 
 #' @keywords finalize_plot
@@ -95,6 +94,8 @@ waapihk_colors <- c(
 
 
 )
+
+waapihk_colors <- waapihk_colours
 
 #' Function to extract colors as hex codes
 #'
@@ -208,7 +209,7 @@ scale_fill_waapihk <- function(palette = 'main', discrete = TRUE, reverse = FALS
 #' @export
 
 theme_waapihk <- function(base_size = 18,
-                          base_family = "Open Sans") {
+                          base_family = "Avenir LT Std") {
   font <- base_family
 
   ggplot2::theme(
@@ -216,7 +217,7 @@ theme_waapihk <- function(base_size = 18,
     plot.background = ggplot2::element_rect(fill = "#ffffff", colour = NA),
     plot.title = ggplot2::element_text(family = font, size = 24, lineheight = 1.2, face = "bold", color = "#222222", margin = ggplot2::margin(0, 0, 0, 0)),
     plot.subtitle = ggplot2::element_text(family = font, size = 16, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
-    plot.caption = ggplot2::element_text(family = font, size = 12, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
+    plot.caption = ggplot2::element_text(family = font, size = 10, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
     # This leaves the caption text element empty, because it is set elsewhere in the finalize plot function
     # plot.caption = ggplot2::element_blank(),
 
