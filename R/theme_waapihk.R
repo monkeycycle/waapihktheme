@@ -217,9 +217,9 @@ theme_waapihk <- function(base_size = 18,
     plot.background = ggplot2::element_rect(fill = "#ffffff", colour = NA),
     plot.title = ggplot2::element_text(family = font, size = 24, lineheight = 1.2, face = "bold", color = "#222222", margin = ggplot2::margin(0, 0, 0, 0)),
     plot.subtitle = ggplot2::element_text(family = font, size = 16, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
-    plot.caption = ggplot2::element_text(family = font, size = 10, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
+    # plot.caption = ggplot2::element_text(family = font, size = 10, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
     # This leaves the caption text element empty, because it is set elsewhere in the finalize plot function
-    # plot.caption = ggplot2::element_blank(),
+    plot.caption = ggplot2::element_blank(),
 
 
 
