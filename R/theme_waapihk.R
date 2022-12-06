@@ -215,7 +215,7 @@ theme_waapihk <- function(base_size = 18,
   ggplot2::theme(
     plot.margin = unit(c(.5, .8, 0, .8), "cm"),
     plot.background = ggplot2::element_rect(fill = "#ffffff", colour = NA),
-    plot.title = ggplot2::element_text(family = font, size = 24, lineheight = 1.2, face = "bold", color = "#222222", margin = ggplot2::margin(0, 0, 0, 0)),
+    plot.title = ggplot2::element_text(family = font, size = 20, lineheight = 1.2, face = "bold", color = "#5F787F", margin = ggplot2::margin(0, 0, 0, 0)),
     plot.subtitle = ggplot2::element_text(family = font, size = 16, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
     # plot.caption = ggplot2::element_text(family = font, size = 10, lineheight = 1, margin = ggplot2::margin(5, 0, 10, 0)),
     # This leaves the caption text element empty, because it is set elsewhere in the finalize plot function
@@ -259,7 +259,7 @@ theme_waapihk <- function(base_size = 18,
 
     # Strip background (#This sets the panel background for facet-wrapped plots to white, removing the standard grey ggplot background colour and sets the title size of the facet-wrap title to font size 22)
     strip.background = ggplot2::element_rect(fill = "#ffffff"),
-    strip.text = ggplot2::element_text(family = font, face = "bold", color = "#555555", size = 14, margin = ggplot2::margin(5, 0, 10, 0), hjust = 0)
+    strip.text = ggplot2::element_text(family = font, face = "bold", color = "#5F787F", size = 14, margin = ggplot2::margin(5, 0, 10, 0), hjust = 0)
   )
 }
 
