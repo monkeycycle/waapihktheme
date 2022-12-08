@@ -95,7 +95,7 @@ waapihk_colors <- c(
 
 )
 
-waapihk_colors <- waapihk_colours
+waapihk_colours <- waapihk_colors
 
 #' Function to extract colors as hex codes
 #'
