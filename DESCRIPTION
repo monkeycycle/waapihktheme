@@ -12,7 +12,7 @@ Depends:
     R (>= 3.5.0)
 Imports:
     dplyr,
-    data.table
+    data.table,
     tidyr, 
     grDevices,
     ggplot2,
@@ -20,7 +20,7 @@ Imports:
     Cairo,
     grid,
     gridExtra,
-    magrittr
+    magrittr,
     png,
     ggpubr,
     gapminder,
